@@ -1,0 +1,145 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+/* Main container */
+.admin-container {
+  padding: 20px;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Stats grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+/* Stat cards */
+.card {
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+/* Colors */
+.total { background: linear-gradient(135deg, #6c63ff, #4b47ff); }
+.pending { background: linear-gradient(135deg, #ff9800, #ffb74d); }
+.approved { background: linear-gradient(135deg, #4caf50, #66bb6a); }
+.resolved { background: linear-gradient(135deg, #2196f3, #42a5f5); }
+
+/* Table container */
+.table-container {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  overflow-x: auto;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Header */
+th {
+  background: #f1f3f5;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Cells */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+/* Hover row */
+tr:hover {
+  background: #f9fafc;
+}
+
+/* Status badge */
+.status {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: white;
+  font-weight: 500;
+}
+
+.status.pending {
+  background: orange;
+}
+
+.status.approved {
+  background: green;
+}
+
+.status.resolved {
+  background: #2196f3;
+}
+
+/* Buttons */
+.actions button {
+  margin-right: 6px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  color: white;
+  transition: 0.2s;
+}
+
+/* Button colors */
+.actions button:nth-child(1) {
+  background: #4caf50;
+}
+
+.actions button:nth-child(2) {
+  background: #2196f3;
+}
+
+.actions button:nth-child(3) {
+  background: #f44336;
+}
+
+/* Button hover */
+.actions button:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+
+/* Empty row */
+.empty {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
