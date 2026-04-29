@@ -43,9 +43,9 @@ We have opted this project to learn practical development and create a meaningfu
 
 ## Future Scope
 - Better request verification
-- Faster notifications
-- NGO collaboration
+- Faster performance & notifications
 - Multi-community support
+- Multi-Lingual Support
 
 ## Demo
 Prototype demo video included in submission.
