@@ -1,7 +1,8 @@
 # CrisisConnect - Community Crisis Support Platform
 
 CrisisConnect is a responsive web platform that connects people in emergency situations with nearby volunteers for faster community support.
-Currently we have a Prototype demo video included in this repo.
+Currently we have a Prototype demo video and images included in this repo.
+- prototype(1).mp4 (VIDEO) | Prototype-Images (SCREENSHOTS)
 
 ## Problem Statement
 During floods, accidents, fires, or local emergencies, urgent requests often fail to reach nearby people in time.  
